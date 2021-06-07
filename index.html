@@ -9,25 +9,21 @@
     <title>Color Flipper</title>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <a href="index.html" class="home">Color Flipper</a>
-        </header>
-        <main id="my-main">
-            <div class="color-name-container">
-                <p>Background Color : </p>
-                <p id="my-color-name">rgb(6,8,148)</p>
-                <div class="buttons">    
-                    <button id="my-hex" onclick="rgbToHex()">In hex</button>
-                    <button id="my-rgb" onclick="hexToRgb()">In rgb</button>
-                </div>
-            </div>
-            <button id="my-gen-color-btn" class="gen-color-btn" onclick="newColor()">Click Me!</button>
-        </main>
-        <footer>
-            <p>Author: Md Sujan</p>
-            <a href="https://www.github.com/mdsujan99" target="_blank"><img src="https://img.icons8.com/color/48/000000/github--v1.png" alt="github"></a> 
-        </footer>
-    </div>
+    <header>
+        <a href="index.html" class="home">Color Flipper</a>
+    </header>
+    <main id="my-main">
+        <div class="color-name-container">
+            <h3>Background Color : </h3>
+            <h3 id="my-color-name">rgb(6,8,148)</h3>
+            <button id="my-hex" onclick="rgbToHex()">In hex</button>
+            <button id="my-rgb" onclick="hexToRgb()">In rgb</button>
+        </div>
+        <button id="my-gen-color-btn" class="gen-color-btn" onclick="newColor()">Click Me!</button>
+    </main>
+    <footer>
+        <p>Author: Md Sujan</p>
+        <a href="https://www.github.com/mdsujan99" target="_blank"><img src="https://img.icons8.com/color/48/000000/github--v1.png" alt="github"></a> 
+    </footer>
 </body>
 </html>
