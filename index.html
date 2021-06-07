@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Color Flipper</title>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="home" style="color: rgb(85, 109, 246);">Color Flipper</a>
+    </header>
+    <main id="my-main">
+        <div class="color-name-container">
+            <p>Background Color :</p>
+            <p id="my-color-name">rgb(6,8,148)</p>
+            <button id="my-hex" onclick="rgbToHex()">in hex</button>
+            <button id="my-rgb" onclick="hexToRgb()">in rgb</button>
+            </div>
+        </div>
+        <button id="my-gen-color-btn" class="gen-color-btn" onclick="newColor()">Click Me!</button>
+    </main>
+</body>
+</html>
